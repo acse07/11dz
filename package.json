@@ -1,13 +1,13 @@
 {
   "name": "saparmurat-video-interview",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Видеоинтервью — приложение для видеозвонков от Сапармурат",
   "author": "Сапармурат",
   "license": "MIT",
   "main": "electron/main.js",
   "scripts": {
     "start": "electron .",
-    "dist": "electron-builder --win nsis"
+    "dist": "electron-builder --win nsis --publish never"
   },
   "devDependencies": {
     "electron": "^39.2.7",
